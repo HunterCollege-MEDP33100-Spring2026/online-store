@@ -1,5 +1,9 @@
-/*This is where your CSS goes*/
-html, body {
-    margin: 0;
-    padding: 0;
+body {
+    background-image: url("Backgraound1.png");
+    background-repeat: no-repeat;
+    /* Prevents the image from repeating */
+    background-size: cover;
+    /* Scales the image to cover the entire container */
+    background-attachment: fixed;
+    /* Fixes the image in place when scrolling */
 }
