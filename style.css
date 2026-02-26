@@ -1,5 +1,71 @@
-/*This is where your CSS goes*/
-html, body {
-    margin: 0;
-    padding: 0;
+body{
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+    background:#f7f7f7;
+
+}
+
+/* NAVBAR */
+.navbar{
+    background:#ecc5ea;
+    color:rgb(125, 5, 85);
+    padding:15px;
+    text-align:center;
+    font-family:'Pacifico';
+}
+
+/* HERO SECTION */
+.hero{
+    background:#ffffff;
+    text-align:center;
+    padding:40px 20px;
+}
+.hero h1{
+    font-family:'Pacifico'
+}
+
+/* PRODUCT AREA */
+.products{
+    display:flex;
+    gap:20px;
+    padding:20px;
+}
+
+.card{
+    background:white;
+    padding:15px;
+    border-radius:8px;
+    text-align:center;
+    flex:1;
+}
+
+.card img{
+    width:100%;
+    border-radius:5px;
+}
+
+/* FOOTER */
+.footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+
+/* TABLET VIEW */
+@media(max-width:900px){
+    .products{
+        flex-wrap:wrap;
+    }
+
+    .card{
+        flex:45%;
+    }
+}
+
+/* MOBILE VIEW */
+@media(max-width:600px){
+    .products{
+        flex-direction:column;
+    }
 }
